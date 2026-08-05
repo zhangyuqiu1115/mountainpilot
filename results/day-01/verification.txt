@@ -1,0 +1,21 @@
+MountainPilot Day 01 verification
+Date: 2026-08-05
+
+Command:
+  python -m unittest discover -s tests -v
+
+Result:
+  test_defaults ... ok
+  test_environment_override ... ok
+  test_invalid_port_is_rejected ... ok
+  test_server_failure_is_reported_without_crashing ... ok
+  test_successful_connection_reports_map ... ok
+
+  Ran 5 tests
+  OK
+
+CARLA probe:
+  The probe returned the expected missing-client status because a compatible
+  local CARLA Python client and simulator runtime have not yet been installed.
+  Exit code: 2 (expected environment status, not a unit-test failure).
+
