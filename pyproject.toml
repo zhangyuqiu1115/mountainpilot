@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mountainpilot"
-version = "0.1.0"
+version = "1.0.0"
 description = "Energy-aware route planning and closed-loop driving simulation for complex urban roads."
 readme = "README.md"
 requires-python = ">=3.10"

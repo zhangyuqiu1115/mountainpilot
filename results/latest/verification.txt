@@ -1,0 +1,16 @@
+MountainPilot local verification
+Verification date: 2026-10-14 (Asia/Singapore)
+
+Python package version: 1.0.0
+Unit/regression tests: 32 passed
+Python compileall: passed
+Milestone logs: 30 present, 0 missing
+Benchmark JSON records: 3
+Benchmark CSV records: 3
+
+Fast route: A -> B -> C -> F, 122.00 m, 9.15 s, 44.92 Wh
+Eco route: A -> D -> E -> F, 141.00 m, 9.88 s, 23.16 Wh
+Closure route: A -> B -> D -> E -> F, 162.00 m, 12.99 s, 29.49 Wh
+
+External boundary: a compatible running CARLA server was not verified.
+Git boundary: upload uses a separate real-time commit; no historical timestamps are fabricated.

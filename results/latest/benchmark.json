@@ -1,0 +1,32 @@
+[
+  {
+    "scenario": "fastest_route",
+    "profile": "fast",
+    "route": "A -> B -> C -> F",
+    "distance_m": 122.0,
+    "estimated_time_s": 9.15,
+    "estimated_energy_wh": 44.92,
+    "planner_cost": 65.19,
+    "expanded_nodes": 4
+  },
+  {
+    "scenario": "energy_aware_route",
+    "profile": "eco",
+    "route": "A -> D -> E -> F",
+    "distance_m": 141.0,
+    "estimated_time_s": 9.88,
+    "estimated_energy_wh": 23.16,
+    "planner_cost": 41.16,
+    "expanded_nodes": 5
+  },
+  {
+    "scenario": "road_closure_replan",
+    "profile": "eco",
+    "route": "A -> B -> D -> E -> F",
+    "distance_m": 162.0,
+    "estimated_time_s": 12.99,
+    "estimated_energy_wh": 29.49,
+    "planner_cost": 61.38,
+    "expanded_nodes": 5
+  }
+]

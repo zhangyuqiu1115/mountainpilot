@@ -1,0 +1,4 @@
+scenario,profile,route,distance_m,estimated_time_s,estimated_energy_wh,planner_cost,expanded_nodes
+fastest_route,fast,A -> B -> C -> F,122.0,9.15,44.92,65.19,4
+energy_aware_route,eco,A -> D -> E -> F,141.0,9.88,23.16,41.16,5
+road_closure_replan,eco,A -> B -> D -> E -> F,162.0,12.99,29.49,61.38,5

@@ -1,35 +1,37 @@
-# 30-Day Roadmap
+# 30-Milestone Roadmap
 
-| Day | Planned deliverable | Evidence |
-|---:|---|---|
-| 01 | Repository, CI, CARLA connection probe | Unit tests and probe output |
-| 02 | Spawn ego vehicle and log state | Structured state log |
-| 03 | Extract CARLA waypoint graph | Graph file and plot |
-| 04 | Implement Dijkstra baseline | Unit tests and sample route |
-| 05 | Implement A* global planner | Search metrics comparison |
-| 06 | Follow global waypoints | Simulation recording |
-| 07 | Refactor and publish week-one report | Test and progress report |
-| 08 | Add road slope and curvature costs | Edge attribute analysis |
-| 09 | Add simplified EV energy model | Energy model tests |
-| 10 | Add fast, eco, and comfort modes | Route comparison |
-| 11 | Implement Pure Pursuit | Lateral error plot |
-| 12 | Implement longitudinal PID | Speed tracking plot |
-| 13 | Add curvature-aware speed planning | Cornering scenario |
-| 14 | Run closed-loop benchmark | Week-two report |
-| 15 | Implement behavior state machine | Transition tests |
-| 16 | Support road-closure replanning | Replanning scenario |
-| 17 | Add lead-vehicle following | Following scenario |
-| 18 | Add time-to-collision metrics | TTC plot and assertions |
-| 19 | Generate Frenet candidate trajectories | Candidate plot |
-| 20 | Score collision risk and comfort | Selection tests |
-| 21 | Add dynamic-scenario regression suite | Week-three report |
-| 22 | Expose planning through FastAPI | OpenAPI contract |
-| 23 | Add deterministic cockpit intent parser | Parser tests |
-| 24 | Add optional LLM structured parsing | Recorded safe examples |
-| 25 | Validate AI output and safe fallback | Adversarial tests |
-| 26 | Automate CARLA scenario execution | One-command runner |
-| 27 | Generate evaluation reports | CSV and figures |
-| 28 | Compare planners and run ablations | Experiment report |
-| 29 | Complete architecture and reproduction guide | Documentation audit |
-| 30 | Publish v1.0 | Demo, report, and release notes |
+`Day XX` is a learning and delivery sequence, not a claim about a distinct calendar date. Each
+milestone has a corresponding log in `docs/devlog/`; Git history should use real timestamps.
 
+| Day | Deliverable | Primary evidence | Status |
+|---:|---|---|---|
+| 01 | Repository, CI, CARLA probe | CARLA boundary tests | Complete |
+| 02 | Typed vehicle and geometry models | Model source and validation | Complete |
+| 03 | Directed road graph | Graph tests | Complete |
+| 04 | Dijkstra baseline | Planner equality test | Complete |
+| 05 | A* planner | Heuristic search tests | Complete |
+| 06 | Route reconstruction and metrics | Route properties | Complete |
+| 07 | Core regression pass | Unit-test suite | Complete |
+| 08 | Slope, curvature, and risk costs | Edge validation | Complete |
+| 09 | Simplified EV energy model | Uphill/flat test | Complete |
+| 10 | Fast, eco, comfort profiles | Route-choice tests | Complete |
+| 11 | Pure Pursuit steering | Lateral-control tests | Complete |
+| 12 | Longitudinal PID | PID tests | Complete |
+| 13 | Kinematic bicycle model | Motion-model tests | Complete |
+| 14 | Offline closed loop | Arrival regression | Complete |
+| 15 | Behavior state machine | State-transition tests | Complete |
+| 16 | Road-closure replanning | Alternate-route test | Complete |
+| 17 | Lead-vehicle following rule | Following-speed test | Complete |
+| 18 | Obstacle stop priority | Priority test | Complete |
+| 19 | Route efficiency metrics | Distance/time outputs | Complete |
+| 20 | Control comfort metrics | Acceleration/jerk outputs | Complete |
+| 21 | Integrated regression suite | Test discovery | Complete |
+| 22 | Stable package exports | Import smoke tests | Complete |
+| 23 | Cockpit preference parser | Chinese/English tests | Complete |
+| 24 | Constrained AI boundary | RoutePreference schema | Complete |
+| 25 | Input validation and fallback | Adversarial tests | Complete |
+| 26 | End-to-end demo CLI | `run_demo.py` | Complete |
+| 27 | JSON/CSV benchmark export | `results/latest` | Complete |
+| 28 | Profile and closure comparison | Three scenarios | Complete |
+| 29 | Architecture/reproduction guide | Documentation | Complete |
+| 30 | Version 1.0 release candidate | Full QA checklist | Complete |
